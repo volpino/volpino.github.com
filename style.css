@@ -4,6 +4,10 @@
     position: relative;
 }
 
+p {
+    padding: 3px;
+}
+
 a {
     color: #000000;
     text-decoration: none;
@@ -180,6 +184,7 @@ pre {
 #welcome p {
     height: 100%;
     top:45%;
+    text-shadow: 0 0 1px #424242;
 }
 
 .page {
@@ -193,6 +198,6 @@ h2 {
 }
 
 ul {
-    padding: 15px;
+    padding-left: 20px;
     list-style-type: circle;
 }
