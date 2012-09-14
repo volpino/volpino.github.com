@@ -4,6 +4,13 @@
     position: relative;
 }
 
+body {
+    color: #353535;
+    background: #FFFFFF;
+    font-size: 13px;
+    overflow: auto;
+}
+
 p {
     padding: 3px;
 }
@@ -13,11 +20,26 @@ a {
     text-decoration: none;
 }
 
-body {
-    color: #353535;
-    background: #FFFFFF;
-    font-size: 13px;
-    overflow: auto;
+a:hover {
+    font-weight: bold;
+}
+
+pre {
+    border: 1px dotted #B4B4B4;
+    background: #E4E4E4;
+    padding: 4px;
+    margin: 4px;
+    font-size: 10px;
+    font-family: monospace;
+}
+
+h2 {
+    padding-bottom:10px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: circle;
 }
 
 #container {
@@ -119,15 +141,6 @@ body {
     font-family: 'Love Ya Like A Sister', arial, serif;
 }
 
-pre {
-    border: 1px dotted #B4B4B4;
-    background: #E4E4E4;
-    padding: 4px;
-    margin: 4px;
-    font-size: 10px;
-    font-family: monospace;
-}
-
 #menu {
     height: 16px;
     margin: 4px 0px;
@@ -162,6 +175,7 @@ pre {
 
 .menu a:hover {
     text-decoration: underline;
+    font-weight: normal;
 }
 
 #menu .menu a.menu_element:hover div {
@@ -173,7 +187,7 @@ pre {
     position: fixed;
     top: 0pt;
     left: 0pt;
-    background: none repeat scroll 0% 0% rgb(250, 250, 250);
+    background: none repeat scroll 0% 0% rgb(35, 35, 35);
     color: rgb(68, 68, 68);
     font-size: 42px;
     text-align: center;
@@ -182,22 +196,18 @@ pre {
 }
 
 #welcome p {
-    height: 100%;
-    top:45%;
+    /*height: 100%;*/
+    /*top:45%;*/
     text-shadow: 0 0 1px #424242;
+}
+
+.dontpanic {
+    top: 25%;
+    height: 100%;
 }
 
 .page {
     display: none;
     overflow: auto;
     height: 100%;
-}
-
-h2 {
-    padding-bottom:10px;
-}
-
-ul {
-    padding-left: 20px;
-    list-style-type: circle;
 }
