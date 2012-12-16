@@ -1,213 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    position: relative;
+h1, h2, h3 {
+    font-family: 'Exo', sans-serif;
 }
 
-body {
-    color: #353535;
-    background: #FFFFFF;
-    font-size: 13px;
-    overflow: auto;
-}
-
-p {
-    padding: 3px;
+h2 {
+    padding-bottom: 10px;
 }
 
 a {
     color: #000000;
-    text-decoration: none;
 }
 
 a:hover {
-    font-weight: bold;
-}
-
-pre {
-    border: 1px dotted #B4B4B4;
-    background: #E4E4E4;
-    padding: 4px;
-    margin: 4px;
-    font-size: 10px;
-    font-family: monospace;
-}
-
-h2 {
-    padding-bottom:10px;
-}
-
-ul {
-    padding-left: 20px;
-    list-style-type: circle;
-}
-
-#container {
-    max-width: 700px;
-    min-width: 500px;
-    border: 1px solid #B4B4B4;
-    font-family: Courier New;
-    margin: 30px auto;
-    padding: 20px;
-    padding-bottom: 0px;
-    background: #F0F0F0;
-    text-align: justify;
-    overflow: auto;
-}
-
-#container p {
-    padding-right: 10px;
-}
-
-#container h1 {
-    font-size: 18px
-}
-
-#header {
-    text-align: left;
-    font-family: Verdana,Tahoma,Geneva,Arial,sans-serif;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-#body {
-    padding: 8px;
-}
-
-#footer {
-    color: #949494;
-    text-align: right;
-    border-top: 1px solid #B4B4B4;
-    font-size: 9px;
-    padding: 4px;
-}
-
-#footer a {
-    color: #848484
-}
-
-.link .url {
-    float: left;
-}
-
-.link .description {
-    margin-left: 7px;
-    float: left;
-}
-
-.project > div {
-    border: 1px solid #DDE;
-    margin: 4px 0px;
-    padding: 4px;
-}
-
-.project > div:hover {
-    background-color: #EEF;
-}
-
-.project .url a {
-    color: #35A;
-    font-size: 13px;
-    font-weight: 700;
-}
-
-.project .url {
-    margin-bottom: 15px;
-}
-
-.round {
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-}
-
-#F {
-    font-size: 600%;
-    line-height: 80%;
-    margin-right: 10px;
-    float: left;
-    font-family: 'Love Ya Like A Sister', arial, serif;
-}
-
-#ox {
-    font-size: 300%;
-    letter-spacing: 7px;
-    line-height: 100%;
-    font-family: 'Love Ya Like A Sister', arial, serif;
-}
-
-#menu {
-    height: 16px;
-    margin: 4px 0px;
-    padding: 4px;
-    padding-bottom: 3px;
-    display: inline-block;
-}
-
-#menu .menu {
-    padding: 0 4px;
-    display: inline;
-}
-
-#menu .menu > div.menu {
-    border: 1px solid #B4B4B4;
-    border-top-width: 0px;
-    position: absolute;
-    left: 10px;
-    display: none;
-    opacity: 0.9;
-    z-index: 42;
-}
-
-#menu div.menu:hover > div.menu {
-    display: block;
-}
-
-.menu a {
     text-decoration: none;
-    cursor: pointer;
+    color: #473868;
 }
 
-.menu a:hover {
-    text-decoration: underline;
-    font-weight: normal;
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background: #473868 !important;
 }
 
-#menu .menu a.menu_element:hover div {
-    text-decoration: underline;
+.nav-pills > li > a:hover {
+    background: #FFFFFF !important;
 }
 
-#welcome {
-    z-index: 9001;
-    position: fixed;
-    top: 0pt;
-    left: 0pt;
-    background: none repeat scroll 0% 0% rgb(35, 35, 35);
-    color: rgb(68, 68, 68);
-    font-size: 42px;
+.btn-primary {
+    background-color: #473868 !important;
+}
+
+.btn-primary:hover {
+    background-color: #5300AA !important;
+}
+
+
+footer {
     text-align: center;
-    width: 100%;
-    height: 100%;
+    font-family: 'Exo', sans-serif;
 }
 
-#welcome p {
-    /*height: 100%;*/
-    /*top:45%;*/
-    text-shadow: 0 0 1px #424242;
+.container-narrow {
+    background: url("img/subtle_dots_transparent.png") repeat 0 0;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
 }
 
-.dontpanic {
-    top: 25%;
-    height: 100%;
+.container-narrow > hr {
+    margin: 30px 0;
+    border-color: #DDD;
 }
 
 .page {
     display: none;
     overflow: auto;
     height: 100%;
+    font-family: 'Share Tech Mono', sans-serif;
+    padding-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding20 {
+    padding: 20px;
 }
