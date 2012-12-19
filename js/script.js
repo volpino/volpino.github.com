@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $.backstretch("img/monkey.jpg");
+  $.anystretch("img/monkey.jpg");
 
   if (!window.location.hash || window.location.hash === "#") {
     $.History.go("home");
